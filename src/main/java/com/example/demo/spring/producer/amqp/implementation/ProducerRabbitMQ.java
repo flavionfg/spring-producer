@@ -29,6 +29,4 @@ public class ProducerRabbitMQ implements AmqpProducer<Message> {
             throw new AmqpRejectAndDontRequeueException(ex);
         }
     }
-
-
 }
