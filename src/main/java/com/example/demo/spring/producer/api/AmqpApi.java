@@ -21,5 +21,4 @@ public class AmqpApi {
         service.sentToConsumer(message);
     }
 
-
 }
