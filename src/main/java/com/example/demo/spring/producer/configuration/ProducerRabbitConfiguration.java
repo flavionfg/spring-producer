@@ -52,6 +52,4 @@ public class ProducerRabbitConfiguration {
         return BindingBuilder.bind(deadLetter())
                 .to(exchenge()).with(deadletter);
     }
-
-
 }
